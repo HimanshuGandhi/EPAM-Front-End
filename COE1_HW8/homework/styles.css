@@ -1,0 +1,68 @@
+/* START: Task 1 Styles */
+
+table,th,td{
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 2%;
+}
+td{
+  width: 90px;
+  height: 70px;
+  text-align: center;
+  font-size: 20px;
+}
+tr{
+  border-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+  border-color: green;
+}
+
+/* END: Task 1 Styles */
+
+
+/* START: Task 2 Styles */
+
+input{
+  width: 250px;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+button{
+  padding: 7px 12px ;
+  border-radius: 15%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+.validated{
+ border: 1px solid  1px solid rgb(120, 123, 120);;
+ background-color: green;
+ width: 310px;
+ padding: 10px;
+ color: black;
+ font-size: 20px;
+}
+.error{
+  border: 1px solid rgb(120, 123, 120);
+  background-color: red;
+  width: 310px;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+}
+/* END: Task 2 Styles */
+

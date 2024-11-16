@@ -1,0 +1,28 @@
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+
+footer{
+    background-color: rgb(216, 226, 236);
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    align-items: center;
+    margin-top: 15px;
+
+
+}
+#sig{
+    color: black;
+    margin-right: 10px;
+}
+#copy{
+    margin-left: 10px;
+    color: black;
+}
+#ico{
+    display: relative;
+}
+p{
+    font-weight: bolder;
+}

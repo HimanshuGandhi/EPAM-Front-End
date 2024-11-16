@@ -1,0 +1,45 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color:rgb(167, 94, 230);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+header .header-left{
+  display: flex;
+  width: 500px;
+}
+header h3{
+  color: black;
+  padding: 15px;
+}
+ header .header-right{
+  display: flex;
+ }
+
+
+.header-right p {
+  margin: 0;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
+
+.header-right p {
+  font-weight: bold;
+}
+
+.header-right p:not(:first-child) {
+  margin-top: 5px;
+}
+p{
+  letter-spacing: 2px;
+}

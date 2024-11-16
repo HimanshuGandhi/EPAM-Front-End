@@ -1,0 +1,101 @@
+#about .box :hover{   
+    background-color: lightskyblue;
+}
+.tm-sidebar, .tm-content-box{  
+    box-shadow: 0px 5px 10px gray;
+}
+.tm-content-box .flex-item:nth-child(2){
+    float: right;  
+}
+#home .tm-banner{  
+    padding: 0px;
+    border: 30px solid rgb(233, 230, 230);
+}
+p::first-letter{ 
+    color: lightblue;
+    font-size: 30px;
+}
+.form-group:nth-child(2)::after{
+    content: "*";
+    color: red;
+}
+.carousel-item .flex-item h2{
+    color: gainsboro;
+    letter-spacing: 5px;
+}
+.tm-section-description::first-letter{ 
+    margin-left: 20px;
+}
+@media print{
+    .tm-sidebar, #about, .padding-medium, .blocks, #ideas, .img-fluid{
+        display: none;
+    }
+    
+    .tm-section-title{
+        color: blue !important;
+    }
+    .tm-content-box>.flex-item:nth-child(1){  
+        width: 350px !important;
+        margin-top: 0px !important;
+    }
+    #home .tm-banner{
+        padding: 0px !important;
+        border: 0px !important;
+    }
+    .tm-content-box .flex-item{  
+        margin-top: 120px;
+        display: inline-block !important;
+        height: 170px !important;
+        width: 170px !important;
+    }
+}
+.tm-section-description{
+    line-height: 2em;
+}
+li .tm-section-title:hover{
+    color: white;
+}
+.blocks .box p::first-letter{
+    color: black;
+}
+.tm-content-box>.flex-item:nth-child(1){
+    width: 32%;
+    display: inline-block;
+    margin-top: 15%;
+}
+.padding-medium a:visited{
+    text-decoration: underline;
+}
+h2+p{
+    font-style: italic;
+}
+li a:hover{ 
+    text-decoration: underline;
+}
+a.text::after{
+    vertical-align: super;
+    content: "New";
+    color: red;
+    font-size: small;
+}
+.blocks .box{
+    padding: 10px;
+}
+.btn:hover{ 
+    background-color: lightblue;
+    border: none;
+}
+.tm-nav-item:hover{
+    background-color: #c7c7c7;
+  }
+.blocks .box:nth-child(even){
+    background-color: #cecbcb;
+}
+.btn{
+    height: 60px;
+    float: right;
+    background-color: white;
+    color: lightblue;
+    border: solid 1px lightblue;
+    width: 200px;
+}
